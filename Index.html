@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" type="image/ico" href="img/IMG_0747.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    
+<section id="header">
+    <a href="#"><img src = "img/studets'union_logo.png" class= "logo" alt="logo"  > </a>
+    <div>
+        <ul id="navbar">
+            <li> <a class="active" href="index.html"> About </a> </li>
+            <li> <a href="#activities"> Student Activities </a> </li>
+            <li> <a href="#workshops"> Events / Workshops </a> </li>
+            <li> <a href="Volunteering.html" target="_blank"> Volunteering </a> </li>
+            <li> <a href="#subscribe"> Subscribe </a> </li>
+            
+           
+        <button type="submit" class="btn1" id="myBtn1" style="text-decoration:none; color:#ffffff; font-family: Montserrat"> Suggest </button>
+    </ul>
+    </div>
+</section>
+<div id="cover">
+    <div id="header1">
+      <h1 style="font-family:Montserrat">STUDENTS' UNION | TUMO LABS</h1>
+      <p style="font-family:Montserrat, extralight, 300px;">Subscribe to become a part of this amazing community. </p>
+      <p> Suggest an idea to make the community even better.</p>
+    </div>
+    <div id="buttons">
+      <a href="#subscribe"><button class="subscribe"> Subscribe</button></a>
+      <button class="suggest" id="myBtn2">Suggest</button>
+    </div>
+  </div>
+
+<section id="about">
+    <div class="container2">
+      <h2>Our vision</h2>
+      <p>People who live in a community actively influence each other. Words and actions by people around us have an effect on us all. We are endlessly changing under the influence of other people, sometimes faster, sometimes slower.
+        We aim to build a strong community and unite individuals with similar views.</p>
+    </div>
+  </section>
+ 
+<section id="activities">
+<h2> Student activities </h2>
+
+<div class="flip-main">
+    <div class="container1">
+        <div class="row1">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img/ch.jpg" alt="flip-card">
+
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="text">
+                            <h3> Chess club</h3>
+                            <p> The Chess Club provides a casual and competitive forum for chess players of all experience levels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img/hike.jpg" alt="flip-card">
+
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="text">
+                            <h3> Hiking club</h3>
+                            <p> The Hiking Club helps you to explore new places and experiences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img/movie.jpg" alt="flip-card">
+
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="text">
+                            <h3> Movie club</h3>
+                            <p> The Movie Club is here to entertain and connect.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+         </div>
+      </div>
+    </div>
+</section>
+
+<section id="workshops">
+  <h2> Events / Workshops </h2>
+  <div class="WSContainer">
+    <div class="erasmus">
+      <div class="erasmuspic"></div>
+      <div class="erasmusinfo">
+        <div class="erasmusHeadline">
+          <p>Introduction to Erasmus+ program</p>
+        </div>
+        <div class="erasmusDet">
+          <p>If you are interested in non-formal education, you may find this event useful
+            <br>Dec 20/ 18:00 / 0 floor</p>
+        </div>
+      </div>
+    </div>
+    <div class="sprint">
+      <div class="sprintpic"></div>
+      <div class="sprintinfo">
+        <div class="sprintHeadline">        
+          <p>Software Sprint Demo day</p>
+        </div>
+        <div class="sprintDet">
+          <p>Website presentation day<br>Dec 23/ 17:00 / 0 floor
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="suggest">
+    <div>
+      <div style="padding: 5px;">
+        <h2 style="color: #ffffff; font-family: 'Montserrat', sans-serif;"> BE THE CHANGE </h2>
+      </div>
+    <div style="padding: 5px;">
+      <h4 style="color: #ffffff; font-family: 'Montserrat', sans-serif;"> Feel free to drop some wonderful ideas. </h4>
+    </div>
+    <button id="myBtn3" style="margin: 15px;" class="subscribe"> Suggest </button>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-body">
+        <form id="suggestion_box" class="modal-content" action="mailto:Gasparyan.2003.ag@gmail.com" method="post" enctype=”text/plain” name=”SuggestForm”>
+        <span class="close">&times;</span>
+        <h3>Suggestion box</h3>
+        <!-- <fieldset>
+          <input type="text" id="name" name="name" placeholder="Your Full Name"><br>
+        </fieldset> -->
+        <fieldset>
+          <textarea placeholder="We want to hear from you!" tabindex="5" name="suggestion_text" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="suggestion_box" data-submit="...Sending" value="text to send">Submit</button>
+        </fieldset>
+      </form>
+      </div>
+    </div>
+
+</section>
+
+
+<section id="subscribe">
+    <div class="container4">
+        <h2 style="padding: 15px;"> Join us and stay updated! </h2>
+      <img src="img/cover.jpg" alt="Image">
+      <form action="mail@gmail.com" method="post" enctype="text/plain">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+<footer>
+    <div class="container">
+      <div class="footer-logo">
+        <img src="img/tumo-labs-horizontal.png" alt="Company logo" style="height: 17px;">
+      </div>
+      <div class="footer-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+</body>
+</html>
